@@ -88,6 +88,20 @@ header>span{
   font-size: 20px;
 }
 
+.grid-item{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 50px;
+  clear: left;
+}
+
+.grid-item>div{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
 input[type=text]{
   width: 100%;
   padding: 12px 20px;
