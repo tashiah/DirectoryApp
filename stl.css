@@ -90,7 +90,7 @@ header>span{
 
 .grid-container{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 40% 40% 20%;
   grid-template-rows: 50px;
   clear: left;
 }
