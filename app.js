@@ -43,6 +43,7 @@ function doChange2(){
 
 
 function store(){
+	document.getElementById("hd").innerHTML = "Phonebook Directory";
 	document.getElementById("addbtn").style.display = "block";
 	document.getElementById("backbtn").style.display = "none";
 	document.getElementById("new-record").style.display = "none";
